@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Metadata Standar & Penugasan -->
+    <title>Profil Mahasiswa | Hilmi</title>
+    <meta
+      name="description"
+      content="Halaman profil singkat Hilmi, Mahasiswa Teknik Informatika UIN Sunan Gunung Djati (UIN SGD) Bandung."
+    />
+
+    <!-- Open Graph Metadata (Sesuai Ketentuan Tugas) -->
+    <meta property="og:title" content="Profil Mahasiswa | Hilmi" />
+    <meta
+      property="og:description"
+      content="Halaman profil singkat Hilmi, Mahasiswa Teknik Informatika UIN Sunan Gunung Djati (UIN SGD) Bandung."
+    />
+    <meta
+      property="og:image"
+      content="https://example.com/foto-profil-hilmi.jpg"
+    />
+  </head>
+  <body>
+    <!-- Bagian Header Utama -->
+    <header>
+      <h1>Profil Mahasiswa</h1>
+      <p>Tugas Pemrograman Web HTML5</p>
+    </header>
+
+    <!-- Menu Navigasi (Memenuhi elemen semantik <nav> dan Link) -->
+    <nav>
+      <ul>
+        <li><a href="#biodata">Biodata & Profil</a></li>
+        <li><a href="#akademik">Jadwal Mata Kuliah</a></li>
+        <li><a href="#portofolio">Proyek & Organisasi</a></li>
+      </ul>
+    </nav>
+
+    <!-- Konten Utama Web -->
+    <main>
+      <!-- Bagian Profil & Foto -->
+      <section id="biodata">
+        <h2>Biodata Diri</h2>
+
+        <!-- Atribut alt digunakan untuk aksesibilitas (Screen reader) -->
+        <img
+          src="Hilmi Zaki I.jpeg"
+          alt="Pas foto Hilmi memakai kemeja rapi"
+          width="150"
+          height="150"
+        />
+
+        <h3>Tentang Saya</h3>
+        <p>
+          Halo! Saya Hilmi, seorang mahasiswa jurusan Teknik Informatika di UIN
+          Sunan Gunung Djati Bandung. Saya memiliki ketertarikan di bidang
+          pengembangan perangkat lunak dan sedang mendalami bahasa pemrograman
+          seperti Java, Python, serta JavaScript.
+        </p>
+
+        <p>
+          Di luar aktivitas perkuliahan, saya aktif berorganisasi, menjaga
+          kebugaran dengan rutin latihan kalistenik, serta memiliki hobi membaca
+          novel dan merawat buku.
+        </p>
+      </section>
+
+      <!-- Bagian Tabel Mata Kuliah -->
+      <section id="akademik">
+        <h2>Informasi Akademik</h2>
+        <h3>Mata Kuliah Semester Ini</h3>
+
+        <!-- Penggunaan tag table, thead, tbody, th dengan atribut scope untuk aksesibilitas -->
+        <table border="1" cellpadding="8" cellspacing="0" width="100%">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Mata Kuliah</th>
+              <th scope="col">SKS</th>
+              <th scope="col">Jam Kuliah</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Manajemen Basis Data</td>
+              <td>3</td>
+              <td>Senin, 07.00-09.30</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Manajemen Proyek Perangkat Lunak</td>
+              <td>3</td>
+              <td>Senin, 09.30-12.00</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Kewirausahaan & Etika Bisnis</td>
+              <td>2</td>
+              <td>Selasa, 10.20-12.00</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Intelegensia Buatan</td>
+              <td>3</td>
+              <td>Selasa, 12.40-15.10</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Interaksi Manusia & Komputer</td>
+              <td>3</td>
+              <td>Rabu, 09.30-12.00</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Jaringan Komputer</td>
+              <td>3</td>
+              <td>kamis, 07.00-09.30</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Pengembangan Aplikasi Mobile</td>
+              <td>3</td>
+              <td>Kamis, 12.40-15.10></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Pengembangan Aplikasi Web</td>
+              <td>3</td>
+              <td>Jumat, 09.30-12.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Bagian Tambahan untuk melengkapi struktur Heading -->
+      <section id="portofolio">
+        <h2>Pengalaman & Proyek</h2>
+
+        <h3>Pengalaman Organisasi</h3>
+        <ul>
+          <li>
+            Pengurus Divisi Pengembangan Nalar dan Intelektual (PNI) - Keluarga
+            Mahasiswa Kuningan (Kamuning)
+          </li>
+          <li>Anggota - Klub Robotika Universitas</li>
+        </ul>
+
+        <h3>Proyek Perkuliahan</h3>
+        <ul>
+          <li>
+            Mengembangkan aplikasi validasi format plat nomor kendaraan
+            menggunakan konsep <em>Regular Expression</em>.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Bagian Kaki Web -->
+    <footer>
+      <hr />
+      <p>
+        &copy; 2026 Hilmi - Jurusan Teknik Informatika. Dibuat untuk memenuhi
+        tugas kuliah.
+      </p>
+      <!-- Tautan eksternal (Memenuhi ketentuan minimal 1 link) -->
+      <p>
+        Mari terhubung di
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+          >GitHub Profil Saya</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
